@@ -68,6 +68,11 @@
       "optional": true,
       "version": "~2.0.2"
     },
+    "framework-arduino-avr-megatinycore": {
+      "type": "framework",
+      "optional": true,
+      "version": "~1.1.5"
+    },
     "framework-arduino-avr-mightycore": {
       "type": "framework",
       "optional": true,
