@@ -1,0 +1,21 @@
+{
+  "build": {
+    "core": "megatinycore",
+    "extra_flags": "-DARDUINO_AVR_ATTINYX7",
+    "f_cpu": "8000000L",
+    "mcu": "attiny807",
+    "variant": "txy7"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "Generic ATtiny807",
+  "upload": {
+    "extra_flags": "-e",
+    "maximum_ram_size": 512,
+    "maximum_size": 8192,
+    "protocol": "updi"
+  },
+  "url": "https://www.microchip.com/wwwproducts/en/ATTINY807",
+  "vendor": "Mircochip"
+}

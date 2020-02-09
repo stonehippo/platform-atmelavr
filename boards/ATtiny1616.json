@@ -1,0 +1,21 @@
+{
+  "build": {
+    "core": "megatinycore",
+    "extra_flags": "-DARDUINO_AVR_ATTINYX7",
+    "f_cpu": "8000000L",
+    "mcu": "attiny1616",
+    "variant": "txy6"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "Generic ATtiny1616",
+  "upload": {
+    "extra_flags": "-e",
+    "maximum_ram_size": 2048,
+    "maximum_size": 16384,
+    "protocol": "updi"
+  },
+  "url": "https://www.microchip.com/wwwproducts/en/ATTINY1616",
+  "vendor": "Mircochip"
+}
